@@ -1,0 +1,373 @@
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+}
+
+body{
+    font-family: 'Manrope';
+    margin: auto;
+    width: 100%;
+    background: #fff;
+    
+    
+}
+
+.nav_section{
+    min-width: 1150px;
+    margin-top: 0;
+    padding-top: 30px;
+    display: inline-block;
+    padding-bottom: 72px;
+    width: 1150px;
+
+}
+
+.nav_container{
+    width: 1150px;
+    margin: 0 auto;
+
+    
+}
+
+.logo {
+    display: inline-block;
+    padding-right: 546px;
+
+}
+
+.logo_img{
+    display: block;    
+} 
+
+.nav_link{
+    display: inline-block;
+}
+.nav{
+    vertical-align: top;
+    padding-right: 58px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #121212;
+}
+
+.nav_last{   
+    vertical-align: top;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+    color: #121212;
+
+}
+
+.nav:hover{
+    text-decoration:underline;
+    color: grey;
+}
+
+
+.section_page{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1400px;
+    background-color: #fff;
+    padding-left: 125px;
+    padding-top: 0px;
+    
+   
+}
+
+.chair{
+    position: relative;
+    margin-bottom: 150px;
+    height: 500px; 
+    width: 1150px; 
+    letter-spacing: -0.03em;
+    background-image: url('../resources/Chair.jpg');
+}
+.imageText{
+    position: absolute;
+    top: 379px;
+    left: 40px;
+    width: 430px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em; 
+    color: #fff;   
+    
+}
+
+h1{
+    width: 956px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;
+    color: #121212;
+}
+
+.aboutUs{
+    width: 1048px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 61px;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+}
+
+.services{
+    margin-bottom: 150px;
+    border: none;   
+    border-radius: 5px;
+    background: #ad1818;
+    width: 255px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.project{
+    margin-bottom: 90px;
+}
+
+
+.project__text{
+    padding-top: 15px;
+    padding-bottom: 12px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;   
+    letter-spacing: -0.03em;
+}
+
+.project__more {
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
+    color: #AD1818;
+    padding-bottom: 90px;
+}
+
+.project__all{
+    width: 1150px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    height: 153px;
+    border-radius: 5px;
+    border-color: #AD1818; 
+    background-color: #fff;  
+    color: #AD1818;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;   
+}
+
+.project__all:hover{
+    background-color:  #AD1818;
+    color: #fff;    
+}
+
+.section_services{
+    margin: 0 auto;
+    min-width: 1400px;
+    width: 100%;
+    background-color: #121212;
+}
+
+.container_services{
+    margin: auto;
+    width: 1400px;
+    height: 1844px;
+    padding-left: 125px;
+    padding-top: 151px;
+    padding-bottom: 125px;
+    
+}
+
+.item__name{
+    width: 1150px;
+    color: #fff;
+    margin-bottom: 34px;
+}
+
+.item__select{
+    margin: auto;
+    width: 100%;
+    padding-bottom: 60px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #fff;
+}
+.item__select_name{
+    padding-top: 15px;
+}
+
+.item__select:nth-last-child(1){
+    padding-bottom: 0px;
+}
+
+.section_fullsizeimg{
+    min-width: 100%;
+    margin: auto;
+    width: 100%;
+    background-image: url('../resources/Lesnoy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.container_fullsizeimg{
+    margin: auto;
+    width: 1150px;
+    height: 717px;       
+}
+
+.lesnoy{
+    margin: auto;
+    position: absolute;
+    padding-top: 575px;
+    padding-bottom: 60px;
+    width: 443px;
+    line-height: 41px;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.section_contact{
+    margin:0 auto;
+    margin-top: 150px;
+    width: 1150px;
+}
+
+.container_contact{
+    width: 1150px;
+}
+
+.contact{
+    margin-bottom: 32px;
+}
+
+.contact:before{
+    content: "";
+    display: block;
+    margin-bottom: 12px;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resources/Phone.png');    
+    background-repeat: no-repeat;
+}
+
+.number_mail{
+    margin-bottom: 30px;
+}
+
+.number_mail{
+    text-decoration: none;
+    color: #121212;width: 956px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: left;
+    letter-spacing: -0.03em;
+    margin-bottom: 30px;
+    
+}
+
+.number_mail:hover{
+    color: grey;
+    text-decoration:none;
+    border-bottom: grey solid 2px;
+}
+
+.section_footer{
+    min-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    min-width: 1400px;
+    height: 229px;
+    background-color: #121212;
+}
+
+.container_footer{
+    text-align: center;
+    color: #fff;
+}
+
+.footer_nav{
+    margin: 0 auto;
+    margin-bottom: 87px;
+    width: 460px;
+
+}
+
+.footer_nav_link{
+    display: inline-block;
+    margin-top: 60px;
+    
+}
+
+.footer_link{
+    margin-right: 55px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em;  
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+.footer_link:hover{
+    color: grey;
+    text-decoration:none;
+    border-bottom: grey solid 2px;
+}
+
+.footer_link_last{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.03em; 
+    text-decoration:none; 
+    color: #FFFFFF;
+}
+
+.footer_link_last:hover{
+    color: grey;
+    text-decoration:none;
+    border-bottom: grey solid 2px;
+}
+
+.footer_text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;    
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.big_footer{
+    width: 100%;
+    min-width: 1400px;
+    margin: auto;
+}
